@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background-color: rgb(207, 102, 54);
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -21,12 +21,12 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgba(7, 114, 61, 0.85);
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f0225c4;
 }
 
 h1 {
@@ -40,15 +40,21 @@ h2 {
 }
 
 h3 {
-  font-family: 'Gabriela', serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.5em;
   margin-top: .5em;
+}
+h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 200;
 }
 
 img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  font: 1em sans-serif; font-weight: 400; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
